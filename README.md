@@ -32,7 +32,7 @@ The project focuses on **clean UI design, component-based architecture, and effe
 ---
 ### 1. Clone the project
 ```
-git clone https://adityaawaik.github.io/financedashboard/
+git clone https://github.com/Adityaawaik/financedashboard.git
 ```
 
 ### 2. Navigate to the Project Directory

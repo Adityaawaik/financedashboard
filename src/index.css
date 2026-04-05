@@ -1,0 +1,9 @@
+:root {
+  /* Light Theme */
+  --bg-white-theme-color: #f9fafb; /* soft white */
+  --text-white-theme-color: #111827; /* dark gray text */
+
+  /* Dark Theme */
+  --bg-dark-theme-color: #020617; /* deep dark */
+  --text-dark-theme-color: #f9fafb; /* soft white text */
+}

@@ -8,6 +8,8 @@ FinTrack is a modern and interactive **finance dashboard application** built usi
 
 The project focuses on **clean UI design, component-based architecture, and effective state management**, making it easy to understand and extend.
 
+## <a  href='https://adityaawaik.github.io/financedashboard/'> Check Here </a>
+
 ---
 
 ## ✨ Features
@@ -26,7 +28,44 @@ The project focuses on **clean UI design, component-based architecture, and effe
 - Monthly financial comparison  
 - Spending analysis  
 
+### Setup Instructions 
+---
+### 1. Clone the project
+```
+git clone https://adityaawaik.github.io/financedashboard/
+```
 
+### 2. Navigate to the Project Directory
+
+Move into the project folder:
+
+```
+cd fintrack
+```
+
+### 3. Install Dependencies
+
+Install all required packages:
+
+```
+npm install
+```
+
+### 4. Start the Development Server
+
+Run the project locally:
+
+```
+npm run dev
+```
+
+### 5. Open in Browser
+
+Once the development server starts, open the provided local URL (usually shown in the terminal, e.g., `http://localhost:5173`) in your browser to view the application.
+
+---
+
+✅ You now have the ** Fintrack Dashboard ** running locally.
 
 # React + Vite
 

@@ -173,7 +173,7 @@ const AddExpense = () => {
             <button
               className="w-full p-2 mt-4 rounded-xl font-semibold text-white 
               bg-linear-to-r from-green-400 to-green-600 
-              hover:from-green-500 hover:to-green-700 
+              hover:from-green-500 hover:to-green-700  cursor-pointer
               transition-all duration-300 shadow-md hover:shadow-lg active:scale-95"
             >
               {editTransaction ? "Update Transaction" : "Add Transaction"}

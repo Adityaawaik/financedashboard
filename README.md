@@ -1,3 +1,33 @@
+
+
+# 💰 FinTrack – Finance Dashboard (React + Vite)
+
+## 📌 Overview
+
+FinTrack is a modern and interactive **finance dashboard application** built using React and Vite. It helps users track their financial activities, analyze spending patterns, and manage transactions efficiently.
+
+The project focuses on **clean UI design, component-based architecture, and effective state management**, making it easy to understand and extend.
+
+---
+
+## ✨ Features
+
+### 📊 Dashboard Overview
+- Total Balance, Income, and Expenses
+- Monthly comparison of income vs expenses
+- Category-wise spending insights
+
+### 👤 Role-Based UI
+- Viewer: Read-only access  
+- Admin: Full control (add/edit/delete)  
+
+### 📈 Insights
+- Highest expense tracking  
+- Monthly financial comparison  
+- Spending analysis  
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -74,7 +74,7 @@ const Navbar = () => {
         {/* Add Button */}
         <button
           onClick={() => navigate("/add-expense")}
-          className={`w-20 bg-[#4A5CFF] font-semibold text-white p-1 rounded-lg ${
+          className={`w-20 bg-[#4A5CFF] font-semibold cursor-pointer text-white p-1 rounded-lg ${
             userType === "Viewer" && "hidden"
           }`}
         >

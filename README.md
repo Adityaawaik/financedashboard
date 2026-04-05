@@ -40,7 +40,7 @@ git clone https://github.com/Adityaawaik/financedashboard.git
 Move into the project folder:
 
 ```
-cd fintrack
+cd financedashboard
 ```
 
 ### 3. Install Dependencies

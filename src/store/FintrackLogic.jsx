@@ -130,16 +130,20 @@ const FintrackLogic = ({ children }) => {
   const healthExpense = totalExpByCategory("health");
   const shoppingExpense = totalExpByCategory("shopping");
 
-  const highestExpenseTransaction = transaction
-    .filter((t) => t.type === "expense")
-    .reduce(
-      (max, curr) => (curr.amount > (max?.amount || 0) ? curr : max),
-      null
-    );
+  const highestExpenseTransaction =
+    transaction.filter((t) => t.type === "expense").length > 0
+      ? transaction
+          .filter((t) => t.type === "expense")
+          .reduce(
+            (max, curr) => (curr.amount > (max?.amount || 0) ? curr : max),
+            null
+          )
+      : null;
 
-  const highestPercentExpense = Math.round(
-    (highestExpenseTransaction.amount * 100) / totalExpense
-  );
+  const highestPercentExpense =
+    highestExpenseTransaction && totalExpense > 0
+      ? Math.round((highestExpenseTransaction.amount * 100) / totalExpense)
+      : 0;
 
   const monthlyData = transaction.reduce((acc, transac) => {
     const month = new Date(transac.date).toLocaleString("default", {
